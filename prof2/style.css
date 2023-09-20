@@ -1,0 +1,743 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&family=Julius+Sans+One&family=Lato&family=Montserrat&family=Nanum+Myeongjo&display=swap');
+
+@font-face {
+    font-family: dandelion;
+    src: url(fonts/BetterGrade-519DV.ttf);
+}
+@font-face {
+    font-family: font-delia;
+    src: url(fonts/Donkey\ Monster.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+img{
+    width: 300px;
+}
+html{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+header{
+    position:absolute;
+    top: 0;
+    left:0;
+    height:150px;
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 12;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nome-header{
+    text-align: center;
+    color: #CEA997;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-family: font-delia;
+}
+.menu-item a{
+    color:#CEA997;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+    margin-left: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 40%;
+}
+.menu-item a:hover{
+    color:#C2B19C;
+    border-bottom: 1px solid #C2B19C;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #735E59;
+}
+.imagem-hero{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 40%;
+    background: url(imagem/kalinehero.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.hero-texto{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.hero-texto h1{
+    font-size: 90px;
+    width: 50%;
+    font-family: dandelion;
+    font-weight: lighter;
+    color: #CEA997;
+    margin: 10px 0 10px;
+    line-height: 1;
+}
+.hero-texto p{
+    font-family: 'Montserrat', sans-serif;
+    color: #C2B19C;
+    width: 45%;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.9;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.hero-texto a{
+    text-transform: uppercase;
+    display: inline-block;;
+    color:#735E59;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bolder;
+    background-color: #CEA997;
+    border: 1px solid transparent;
+    padding: 10px 5px;
+    font-size: 11px;
+    line-height: 1.4;
+}
+.icons{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    padding: 0 5%;
+}
+.icons .link-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    color: #735E59;
+    background-color: #C2B19C;
+}
+.icons .link-icon:hover{
+    background-color:#CEA997;
+}
+.hero-texto a:hover{
+    background: transparent;
+    color:#CEA997;
+    border: 1px solid #CEA997;
+}
+.about-img{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+    margin: 150px auto;
+    width: 80%;
+}
+.about-content h2{
+    font-family: dandelion;
+    font-weight: lighter;
+    font-size: 60px;
+    text-align: end;
+    transition-duration: 1s;
+    color:#735E59
+}
+.about-content h3{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: end;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #735E59;
+}
+.about-content p{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    color:#735E59;
+}
+.posts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post{
+    padding-bottom: 4rem;
+    margin: 150px auto;
+    width: 70%;
+}
+.post h2{
+   font-family: 'Julius Sans One', sans-serif;
+   text-transform: uppercase;
+   font-weight: lighter;
+   color:#735E59;
+   font-size: 40px;
+   text-align: center;
+   padding-bottom: 40px;
+}
+.post-img img{
+    margin-right: 30px;
+}
+.titulo-galeria h2{
+    height: 150px;
+    display: flex;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: lighter;
+    color:#735E59;
+    justify-content: center;
+    align-items: center;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+    margin-bottom: 50px;
+}
+.item-galeria{
+    width: 300px;
+    height: 300px;
+}
+.item-galeria img{
+    width: 100%;
+    height: 100%;
+}
+.item-galeria:hover{
+    opacity: 0.3;
+}
+.cards{
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px;
+}
+.cards h2{
+    font-size: 40px;
+    margin: 0 0 30px 0;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #735E59;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.servicos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 20px 2px 0;
+    padding: 20px;
+    border: 2px solid #CEA997;
+    color: #735E59;
+    background-color: #CEA997;
+    align-self: normal;
+}
+.container i{
+    font-size: 50px;
+    margin: 16px 0;
+    color:#735E59;
+}
+.container ul {
+    color:#735E59;
+    font-family: 'Montserrat', sans-serif;
+}
+.container ul li{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.container>*{
+    flex: 1 1 100%;
+}
+.container h3{
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.info-edu{
+    background-color: #EDEAE5;
+    color:#735E59;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    font-family: 'Montserrat', sans-serif;
+}
+.info-edu hr{
+    width: 70px;
+    background-color: #735E59;
+    margin: 0 auto 30px;
+}
+.info-edu h2{
+    font-family: dandelion;
+    font-weight: lighter;
+    font-size: 80px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: lowercase;
+}
+.info-edu article p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    width: 70%;
+    margin: auto;
+}
+.areas{
+    width: 100%;
+    height: 700px;
+}
+.areas h2{
+    font-size: 40px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #735E59;
+    color:#CEA997;
+    text-transform: uppercase;
+    height: 120px;
+    margin-bottom:30px;
+    margin-top:30px;
+}
+.areas .areas-box{
+    width: 95%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:13%;
+}
+.areas .areas-box .info-box{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 5px solid #CEA997;
+}
+.areas .areas-box .info-box:hover{
+    background-color: #CEA997;
+    border-radius: 20px;
+    height:320px;
+}
+.areas .areas-box .info-box img{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+}
+.areas .areas-box .info-box:hover img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: -230px;
+}
+.areas .areas-box .info-box .info{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top:25%;
+}
+.areas .areas-box .info-box:hover .info{
+    top:60%
+}
+.areas .areas-box .info-box .info .nome{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    color:#735E59;
+    margin-bottom: 10px;
+}
+.areas .areas-box .info-box .info .bio{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    width: 70%;
+    color: #735E59;
+    text-align: center;
+    text-align: justify;
+    margin: 0 auto 10px auto;
+}
+.area-forro{
+    height: auto;
+    background: url(imagem/xilogravura.jpg);
+    background-size: cover;
+    min-height: 800px;
+    position: relative;
+}
+.area-forro::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #5D4037;
+    top:0;
+    left:0;
+    opacity: 0.8;
+    z-index: 0;
+}
+.area-song{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    width: 280px;
+    border-radius: 10px;
+    padding: 25px 30px;
+    background-color: #C2B19C;
+    margin-left: 20px;
+    z-index: 10;
+}
+.song-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.song-info i{
+    font-size: 20px;
+    color:#735E59;
+}
+.img-ara{
+    height: 256px;
+    width: 100%;
+    background-color: #735E59;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.img-ara img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.song-details{
+    text-align:left;
+    margin: 15px 0;
+}
+.song-details .song-name{
+    color:#735E59;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.song-details i{
+    font-size: 19px;
+    color:#735E59;
+}
+.song-details .artist{
+    color:#735E59;
+    font-size: 15px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.area-forro h2{
+    text-align: center;
+    padding-top: 80px;
+    font-family: dandelion;
+    font-size: 95px;
+    font-weight: lighter;
+    color:#C2B19C;
+    z-index: 2;
+    position: relative;
+}
+.area-forro h3{
+    z-index: 10;
+    font-size: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color:#C2B19C;
+    font-weight: lighter;
+    z-index: 2;
+    position: relative;
+    
+}
+.play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#735E59;
+    font-size: 25px;
+}
+.play i{
+    margin-left: 20px;
+}
+.tempo-musica{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    margin-top: 10px;
+}
+.tempo-musica{
+    color:#735E59;
+    font-size: 19px;
+}
+.progresso-musica{
+    height: 4px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #735E59;
+}
+.progresso{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    background-color: #5D4037;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    background-color: #735E59;
+    color: #735E59;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.link-area li{
+    padding: 10px 10px 10px 0;
+    color:#C2B19C;
+}
+.footer-links{
+    margin: auto;
+}
+.link-area a{
+    color:#C2B19C;
+    margin-left: 5px;
+}
+.link-area a:hover{
+    background-color: #CEA997;
+    color:#735E59
+}
+.link-area i{
+    margin-right: 10px;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    background-color: #CEA997;
+    padding: 1rem;
+    
+}
+@media screen and (max-width:1200px){
+    body{
+        overflow-x: hidden;
+        position: absolute;
+    }
+    .posts{
+        flex-direction: column;
+    }
+    .post-img img{
+        margin-top: 20px;
+    }
+    .areas .areas-box{
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+    }
+    .areas{
+        height: auto;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .info-box{
+        margin: 0 30px;
+    }
+    .areas .areas-box .info-box{
+        border: none;
+        margin: 10px 0;
+        max-width: 300px;
+        width: 60%;
+        border-radius: 20px;
+    }
+    .areas .areas-box .info-box:hover img{
+        width: 150px;
+        height: 150px;
+        margin-top: -150px;
+    }
+    .areas .areas-box .info-box:hover .info{
+        top:55%
+    }
+    .areas .areas-box .info-box img{
+        width: 100%;
+    }
+    .about-img{
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .about-content h2{
+        padding-top: 20px;
+        text-align: center;
+        font-size: 80px;
+    }
+    .about-content h3{
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+    .about-content p{
+        font-size: 16px;
+    }
+    .about{
+        flex-direction: column;
+        margin: 50px auto;
+        width: 90%;
+    }
+    .info-edu{
+        justify-content: center;
+        padding: 20px;
+    }
+    .info-edu h2{
+        font-size: 80px;
+        margin-top: 10px;
+    }
+    .info-edu article p{
+        width: 100%;
+        font-size:20px;
+        margin:10px auto;
+    }
+    .wrapper {
+        width: 30%;
+        margin: 15px 0;
+    }
+    .song-info i, .song-details .song-name, .song-details i, .song-details .artist {
+        font-size: 16px; 
+    }
+    .song-details {
+        margin: 10px 0;
+    }
+    .play {
+        font-size: 18px;
+        margin-top: 10px; 
+    }
+    .progresso-musica {
+        height: 2px; 
+        border-radius: 2px; 
+    }
+    .area-song{
+        flex-direction: column;
+        width: 100%;
+    }
+    .header {
+        padding: 0 6%; 
+        align-items: flex-start;
+        height: auto;
+        justify-content: space-between;
+    }
+    .nome-header {
+        margin-top: 30px;
+        text-align: start; 
+        margin-bottom: 10px; 
+        font-size: 80px; 
+    }
+    .menu{
+        align-items: flex-start; 
+        margin-top: 10px; 
+    }
+
+    .menu-item a {
+        margin-left: 20px; 
+        margin-top: 5px;
+        width: 150%;
+        font-size: 18px;
+    }
+
+    .hero-texto {
+        top: 40%; 
+        left: 5%;
+    }
+
+    .hero-texto h1 {
+        font-size: 80px; 
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .hero-texto p {
+        font-size: 20px; 
+        width: 40%; 
+        text-align: left;
+        margin: 10px 0; 
+    }
+
+    .hero-texto a {
+        margin-top: 20px;
+        font-size: 20px;
+        padding: 8px 12px; 
+    }
+
+    .imagem-hero {
+        width: 500px;
+        height: 500px;
+        margin-top: 50%;
+        margin-right: 20px;
+    }
+
+    .icons {
+        flex-direction: row;
+        top: 10%;
+    }
+
+    .icons .link-icon{
+        height: 49px;
+        width: 49px; 
+    }
+    .servicos{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:480px){
+    .wrapper {
+        width: 60%;
+        margin: 15px 0;
+    }
+}
