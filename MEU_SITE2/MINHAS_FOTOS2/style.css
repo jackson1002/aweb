@@ -1,0 +1,31 @@
+*{
+    margin:auto;
+    width:1240px;
+    height: auto;
+}
+
+.fotos{
+    width:300px;
+    height: 300px;
+    border-radius: 300px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+}
+.voltar{
+    
+    color:#5C9DF2;
+    width:50px;
+
+}
+
+.container_voltar{
+    display: flex;
+    justify-content: flex-end;
+
+   
+}
+
+.pagina_inteira{
+    background-color: #72CEF2;
+}

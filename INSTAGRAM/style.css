@@ -1,0 +1,380 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html{
+    height: 5000;
+}
+.pagina_inteira{
+    width:470px;
+    height: 930px;
+    background-color: black;
+    margin:auto;
+}
+
+.cabecalho{
+    display: flex;
+    background-color:black;
+    width: 429px;
+    height: 37px;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.nome_usuario1{
+    font-size: 26px;
+    color:seashell;
+    
+
+    
+}
+
+.flecha{
+    width: 13.13px;
+    height: 7.88px;
+    margin-top: 15px;
+}
+
+.container1{
+    display: flex;
+    width:198px;
+    height: 37px;
+    background-color: black;
+}
+
+.more1{
+    width: 26px;
+    height: 26px;
+    margin-top: 6px;
+    margin-left: 129px;
+
+}
+
+.menu{
+    width:22px;
+    height: 17px;
+    margin-top: 11px;
+    margin-left: 34px;
+}
+
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    
+}
+
+.container3{
+    display: flex;
+    background-color: black;
+    width:169px;
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+
+
+.more2{
+    width:25px;
+    height:25px;
+    margin-top: 79px;
+    margin-left: 79px;
+}
+
+.container4{
+    background-image: url(FOTOS/download.jpeg);
+    width:104px;
+    height: 104px;
+    border-radius:50px;
+    background-color: black;
+}
+
+.container5{
+    display:flex;
+    flex-direction: column;
+    width:88px;
+    height: 31px;
+    margin-top: 40px;
+    margin-left: 51px;
+
+}
+
+
+.publicacoes1{
+    text-align: center;
+}
+
+.publicacoes2{
+    text-align: center;
+}
+
+.container6{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 83px;
+    height: 31px;
+   
+}
+
+.container7{
+    display: flex;
+    flex-direction: column;
+    width: 74px;
+    height: 31px;
+    margin-top: 40px;
+    margin-left: 10px;
+   
+}
+
+.seguidores1{
+    text-align: center;
+}
+
+.seguidores2{
+    text-align: center;
+}
+
+.seguindo1{
+    text-align: center;
+}
+.seguindo2{
+    text-align: center;
+}
+
+.container8{
+    display: flex;
+    width:265px;
+    height: 31px;
+    background-color: black;
+}
+
+
+
+
+.editar_perfil{
+    display: flex;
+    width: 190px;
+    height: 40px;
+    background-color: rgba(236, 229, 229, 0.432);
+    margin-left: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.compartilhar_perfil{
+    display: inline;
+    display: flex;
+    width: 190px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: rgba(236, 229, 229, 0.432);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadradinho{
+    width:40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.container10{
+    display: flex;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.container12{
+    display: flex;
+    background-color: black;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.foto2{
+    width:78px;
+    height: 78px;
+    border-radius: 78px;
+   
+}
+
+.foto3{
+    width:78px;
+    height: 78px;
+    border-radius: 78px;
+    margin-left: 20px;
+}
+
+.foto4{
+    width:78px;
+    height: 78px;
+    border-radius: 78px;
+    margin-left: 20px;
+}
+
+.foto5{
+    width:78px;
+    height: 78px;
+    border-radius: 78px;
+    margin-left: 20px;
+}
+
+.foto6{
+    width:78px;
+    height: 78px;
+    border-radius: 78px;
+    margin-left: 20px;
+}
+
+.container13{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+   
+}
+
+.container14{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+   
+}
+
+.container15{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+   
+}
+
+.container16{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+   
+}
+
+.container17{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+   
+}
+
+.centraliza1{
+    text-align: center;
+}
+
+.centraliza2{
+    text-align: center;
+    margin-left: 21px;
+}
+
+.container17{
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 65px;
+    margin-right: 65px;
+    justify-content: space-between;
+}
+
+.paleta{
+    width:24px;
+    height: 24px;
+}
+.filme{
+    width:24px;
+    height: 24px;
+}
+
+.usuario{
+    width:24px;
+    height: 24px;
+}
+
+.container18{
+    display: flex;
+    width: 470px;
+    height: 313px;
+    margin-top: 25px;
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fotos_finais{
+    width: 155px;
+    height: 155px;
+}
+
+.container19{
+    display: flex;
+    margin-top: 3px;
+    margin-bottom: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container20{
+    display: flex;
+    background-color: black;
+    margin-top: 3px;
+    width:469px;
+    height: 68px;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+   
+    
+    
+}
+
+.home{
+    width:35px;
+    height: 35px;
+    margin-top: 16px;
+}
+
+.lupa{
+    width:35px;
+    height: 35px;
+    margin-top: 16px;
+    border-radius: 35px;
+}
+
+.more3{
+    width:35px;
+    height: 35px;
+    margin-top: 16px; 
+    border-radius: 35px;
+}
+
+.filme2{
+    width:35px;
+    height: 35px;
+    margin-top: 16px;  
+    border-radius: 35px;
+}
+
+.usuario2{
+    width:35px;
+    height: 35px;
+    margin-top: 16px;
+    border-radius: 35px; 
+}
+
+.texto{
+    color:seashell;
+}

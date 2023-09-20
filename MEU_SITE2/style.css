@@ -1,0 +1,863 @@
+*{
+    margin:0;
+    padding: 0;
+}
+    
+img{
+    width:500px;
+    height:500px;
+    border-radius: 500px;
+}
+    
+.pagina_inteira{
+    margin:auto;
+    background-color: #72CEF2;
+    width:1500px;
+    height:auto;
+    }
+    
+    .hero{
+        display: flex;
+        justify-content: center;
+        background-color: #72CEF2;
+        margin-top: 75px;
+    }
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #BDEDF2;
+    
+    }
+    
+    .link{
+        color: #5C9DF2;
+    }
+    
+    .inline{
+        background: blue;
+    }
+    
+    .ajeita_links{
+        width: 800px;
+        display: flex;
+        background-color: #BDEDF2;
+        justify-content: space-between;
+        align-items: center;
+        align-items: flex-end;
+    }
+    .nome_completo{
+        margin-top: 210px;
+        margin-left: 80px;
+        font-size: 65px;
+        color: aliceblue;
+    }
+    /**rgb(252, 225, 191)**/
+    .iniciais{
+        font-size: 80px;
+        margin-left: 20px;
+        color: #FDE9B9;
+    }
+    
+    .curiosidades{
+        margin-left: 20px;
+    }
+    
+    .espassamento{
+        margin-left: 30px;
+        color:aliceblue;
+    }
+    
+    .espassamento2{
+        margin-left: 10px;
+        color:aliceblue;
+    }
+    
+    .espassamento3{
+        margin-left: 25px;
+    }
+    
+    .aniversario{
+        width:300px;
+        height:300px;
+        border-radius: 0;
+    }
+    .card_aniversario{
+        background-color: #BDEDF2;
+        width:380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 380px;
+        border-radius: 10px;
+        justify-content: center;
+    }
+    
+    .card_eu_cecilia{
+        background-color: #BDEDF2;
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        height: 380px;
+        border-radius: 10px;
+    }
+    
+    .eu_cecilia{
+        width:300px;
+        height:300px;
+        border-radius:0;
+    }
+    
+    img{
+        width:500px;
+        height:500px;
+        border-radius: 500px;
+    }
+    
+    .pagina_inteira{
+        margin:auto;
+        background-color: #72CEF2;
+        width:1500px;
+        height: 5000px;
+    }
+    
+    .hero{
+        display: flex;
+        justify-content: center;
+        background-color: #72CEF2;
+        margin-top: 75px;
+    }
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #BDEDF2;
+    
+    }
+    
+    .link{
+        color: #5C9DF2;
+    }
+    
+    .inline{
+        background: blue;
+    }
+    
+    .ajeita_links{
+        width: 800px;
+        display: flex;
+        background-color: #BDEDF2;
+        justify-content: space-between;
+        align-items: center;
+        align-items: flex-end;
+    }
+    .nome_completo{
+        margin-top: 210px;
+        margin-left: 80px;
+        font-size: 65px;
+        color: aliceblue;
+    }
+    /**rgb(252, 225, 191)**/
+    .iniciais{
+        font-size: 80px;
+        margin-left: 20px;
+        color: #5C9DF2;
+    }
+    
+    .curiosidades{
+        margin-left: 20px;
+    }
+    
+    .espassamento{
+        margin-left: 30px;
+        color:aliceblue;
+    }
+    
+    .espassamento2{
+        margin-left: 10px;
+        color:aliceblue;
+    }
+    
+    .espassamento3{
+        margin-left: 25px;
+    }
+    
+    .aniversario{
+        width:300px;
+        height:300px;
+        border-radius: 0;
+    }
+    .card_aniversario{
+        background-color: #BDEDF2;
+        width:380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 380px;
+        border-radius: 10px;
+        justify-content: center;
+    }
+    
+    .card_eu_cecilia{
+        background-color: #BDEDF2;
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        height: 380px;
+        border-radius: 10px;
+    }
+    
+    .eu_cecilia{
+        width:300px;
+        height:300px;
+        border-radius:0;
+    }
+    
+    .card_sushi{
+        background-color: #BDEDF2;
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 380px;
+        border-radius: 10px;
+        justify-content: center;
+    }
+    
+    .sushi{
+        width:300px;
+        height: 300px;
+        border-radius: 0;
+    }
+    
+    .container_cards{
+        display: flex;
+        background-color: #72CEF2;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    
+    .container_colum1{
+        display: flex;
+        flex-direction: column;
+        background-color: #72CEF2;
+    }
+    
+    .container_colum2{
+        display: flex;
+        flex-direction: column;
+        background-color: #72CEF2;
+    }
+    
+    .card_musica{
+        background-color: #BDEDF2;
+        width:380px;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        margin-top: 100px;
+        border-radius: 10px;
+        height: 380px;
+        justify-content: center;
+    }
+    
+    .musica{
+        width:300px;
+        height: 300px;
+        border-radius: 0;
+    }
+    
+    .alinha_texto{
+        text-align: center;
+    }
+    
+    
+    .container_colum3{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .card_doce{
+        background-color: #BDEDF2;
+        width:380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        justify-content: center;
+        height: 380px;
+    }
+    
+    .doce{
+        width:300px;
+        height: 300px;
+        border-radius: 0;
+    }
+    
+    .conhecendo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    
+    .tabela_inteira{
+        border: solid aliceblue 8px;
+        background-color:#88ABF2;
+        margin-top: 40px;
+        padding: 20px;
+    }
+    
+    .ano{
+        background-color: #BDEDF2;
+        border:none;
+        border-radius: 10px;
+    }
+    
+    
+    
+    .historico{
+        display: flex;
+        flex-direction: column;
+        margin-left:20px;
+        margin-top: 200px;
+        background-color: #72CEF2;
+    }
+    
+    .habilidades{
+        background-color: #72CEF2;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 200px;
+        color:aliceblue;
+    }
+    
+    .contatos{
+        background-color: brown;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 275px;
+    }
+    
+    .sequencia_fotos{
+        background-color: brown;
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    
+    
+    .cards{
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    
+    .curiosidades{
+        color: aliceblue;
+    }
+    
+    .letra_historico{
+        color:aliceblue;
+    }
+    
+    .escola{
+        background-color: #BDEDF2;
+        border:none;
+        border-radius: 10px;
+       
+    }
+    
+    .dados{
+        background-color: #BDEDF2;
+        border:none;
+        border-radius: 10px;
+        text-align: center;
+        
+    }
+    
+    .espaco_paragrafo{
+        background-color: aquamarine;
+    }
+    
+    .icone_duvida{
+        width:50px;
+        height: 50px;
+    }
+    
+    .pasta{
+        width:50px;
+        height: 50px;
+    }
+    
+    .lapis{
+        width:50px;
+        height:50px;
+        margin-left: 1000px;
+        margin-bottom: 200px;
+        background-color: #BDEDF2;
+        margin-right: 80px;
+    }
+    
+    .lampada{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .container_lapis{
+        background-color: pink;
+        display: inline;
+        width: 30px;
+    }
+    
+    
+    .container_causos{
+        display: flex;
+    }
+    
+    
+    .paragrafo1{
+        background-color: #FDE9B9;
+    }
+    
+    .paragrafo2{
+        background-color: green;
+    }
+    
+    .paragrafo7{
+        background-color: purple;
+        width:900px;
+    }
+    .card_sushi{
+        background-color: #BDEDF2;
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 380px;
+        border-radius: 10px;
+        justify-content: center;
+    }
+    
+    .sushi{
+        width:300px;
+        height: 300px;
+        border-radius: 0;
+    }
+    
+    .container_cards{
+        display: flex;
+        background-color: #72CEF2;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    
+    .container_colum1{
+        display: flex;
+        flex-direction: column;
+        background-color: #72CEF2;
+    }
+    
+    .container_colum2{
+        display: flex;
+        flex-direction: column;
+        background-color: #72CEF2;
+    }
+    
+    .card_musica{
+        background-color: #BDEDF2;
+        width:380px;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        margin-top: 100px;
+        border-radius: 10px;
+        height: 380px;
+        justify-content: center;
+    }
+    
+    .musica{
+        width:300px;
+        height: 300px;
+        border-radius: 0;
+    }
+    
+    .alinha_texto{
+        text-align: center;
+    }
+    
+    
+    .container_colum3{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .card_doce{
+        background-color: #BDEDF2;
+        width:380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        justify-content: center;
+        height: 380px;
+    }
+    
+    .doce{
+        width:300px;
+        height: 300px;
+        border-radius: 0;
+    }
+    
+    .conhecendo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    
+    .tabela_inteira{
+        border: solid aliceblue 8px;
+        background-color: #5C9DF2;
+        margin-top: 40px;
+        padding: 80px;
+        
+    }
+    
+    .ano{
+        background-color: #BDEDF2;
+        border:none;
+        border-radius: 10px;
+        
+    }
+    
+    .causos{
+        width: 510px;
+        background-color: #5C9DF2;
+        margin-left: 20px;
+        margin-top: 200px;
+        color: aliceblue;
+    }
+    
+    .historico{
+        display: flex;
+        flex-direction: column;
+        margin-left:20px;
+        margin-top: 200px;
+        background-color: #72CEF2;
+    }
+    
+    .habilidades{
+        background-color: #72CEF2;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 200px;
+        color:aliceblue;
+    }
+    
+    .contatos{
+        background-color:#72CEF2;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 275px;
+    }
+    
+    .sequencia_fotos{
+        background-color:#72CEF2;
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    
+    
+    .cards{
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    
+    .curiosidades{
+        color: aliceblue;
+    }
+    
+    .letra_historico{
+        color:aliceblue;
+    }
+    
+    .escola{
+        background-color: #BDEDF2;
+        border:none;
+        border-radius: 10px;
+       
+    }
+    
+    .dados{
+        background-color: #BDEDF2;
+        border:none;
+        border-radius: 10px;
+        text-align: center;
+        
+    }
+    
+    .espaco_paragrafo{
+        background-color:#5C9DF2;
+        margin-top: 40px;
+    }
+    
+    .icone_duvida{
+        width:50px;
+        height: 50px;
+    }
+    
+    .pasta{
+        width:50px;
+        height: 50px;
+    }
+    
+    .lapis{
+        width:50px;
+        height:50px;
+       
+    }
+    
+    .lampada{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .container_lapis{
+        display: flex;
+        background-color:#72CEF2;
+        width:50px;
+        height:50px;
+        margin-top: 50px;
+    }
+    
+    .container_causos{
+        width: 510px;
+        display: flex;
+        background-color: #5C9DF2;
+        color:aliceblue;
+    }
+    
+    
+    .paragrafo1{
+        background-color: #5C9DF2;
+        width:500px;
+        margin-left: 10px;
+        color:aliceblue;
+    }
+    
+    .paragrafo2{
+        background-color: #5C9DF2;
+        margin-left: 2px;
+        width:500px;
+        color:aliceblue;
+    }
+    
+    .paragrafo3{
+        background-color: #5C9DF2;
+        width:500px;
+        margin-left: 2px;
+        color:aliceblue;
+    }
+    .paragrafo4{
+        background-color: #5C9DF2;
+        width:500px;
+        margin-left: 2px;
+        color:aliceblue;
+    }
+    .paragrafo5{
+        background-color:#5C9DF2;
+        width:500px;
+        margin-left: 2px;
+        color:aliceblue;
+    }
+    .paragrafo6{
+        background-color: #5C9DF2;
+        width:500px;
+        margin-left: 2px;
+        color:aliceblue;
+    }
+    .paragrafo7{
+        background-color: #5C9DF2;
+        width:500px;
+        margin-left: 2px;
+        color:aliceblue;
+    }
+
+    .lapis_img{
+        width: 50px;
+        height: 50px;
+        border-radius: 0;
+    }
+
+    .assinatura{
+        margin-top: 20px;
+        color:black;
+        margin-left: 115px;
+        background-color:#5C9DF2;
+        background-image: url(img/assinatura.png);
+        background-size:cover ;
+        background-size: contain;
+        background-size: 50px 50px;
+        background-repeat: no-repeat;
+        background-position:115px 2px;
+        height: 200px;
+    }
+    
+
+    .carta{
+        background-color:#5C9DF2;
+        height: 200px;
+    }
+
+    .linha{
+        width: 10px;
+        height: 10px;
+        
+        border-radius: 0;
+        margin-bottom:5px;
+    }
+
+    .linha1{
+        background-color: pink;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img_linha{
+        background-color:green;
+    }
+
+    .cor_titulo{
+        color:aliceblue;
+    }
+
+    .container_habilidades{
+        margin-top: 40px;
+        width: 950px;
+        height: 500px;
+        display: flex;
+        background-color:#BDEDF2;
+        justify-content: space-around;
+        border-radius:10px ;
+    }
+
+    .backing_vocal{
+        background-color:aliceblue;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 300px;
+        margin-top: 10px;
+    }
+
+    .tocar_violao{
+        background-color:aliceblue;
+        width: 300px;
+        height:300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 300px;
+        margin-top: 90px;
+    }
+
+    .atuar{
+        background-color:aliceblue;
+        width:300px;
+        height:300px;
+        border-radius:300px;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+
+    .microfone{
+        width: 80px;
+        height: 80px;
+    }
+
+    .violao{
+        width:80px;
+        height: 80px;
+    }
+
+    .filme{
+        width:85px;
+        height: 85px;
+    }
+
+    .titulo{
+        color:black;
+    }
+
+    .camera{
+        width:50px;
+        height:50px;
+        border-radius: 0;
+    }
+
+    .link_fotos{
+        color:black;
+    }
+    
+
+    .container_principal{
+        display: flex;
+        background-color:#72CEF2;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .ajusta_link_fotos{
+        display:flex;
+        margin-top: 40px;
+    }
+    
+    .telefone{
+        width:50px;
+        height: 50px;
+    }
+
+    .contato_titulo{
+        color:aliceblue;
+    }
+
+    .espacamento_contato{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+
+    .container_geral_tabela{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    @media screen and (max-width: 1200){
+        
+    } 
+        
+    
