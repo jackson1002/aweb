@@ -523,6 +523,7 @@ img{
       display: flex;
       flex-direction: column;
       margin-top: 20px;
+
   }
   
   
@@ -547,6 +548,11 @@ img{
       margin-left: 20px;
       margin-top: 200px;
       color: aliceblue;
+  }
+
+  .espacamento_titulos_tabela{
+    display:flex;
+    justify-content: space-between;
   }
   
   .historico{

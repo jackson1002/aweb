@@ -1,5 +1,5 @@
 import React from "react";
-import minhafoto1 from "./img/minha_foto1.jfif"
+import minhafoto1 from "./img/minha_foto1.jfif";
 
 function Hero(){
     return(

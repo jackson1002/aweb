@@ -8,7 +8,7 @@ function Header(){
                     <nav>
                         <div className="ajeita_links">
                             <a href="#Algumas curiosidades sobre mim" class="link">Curiosidades</a><br/>
-                            <a href="#Histórico" className="link">Histórico</a><br/>
+                            <a href="#Portifolio" className="link">Portifólio</a><br/>
                             <a href="#Causos" className="link">Causos</a><br />
                             <a href="#Habilidades" className="link">Habilidades</a><br/>
                             <a href="#Contato" className="link">Contato</a><br/>
