@@ -4,6 +4,7 @@ import Header from './Header';
 import Hero from './Hero';
 import Cards from './Cards_Curiosidades';
 import Portifolio from './Portifolio';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -16,8 +17,7 @@ function App() {
       </div>
       <Cards/>
       <Portifolio/>
-      
-     
+      <Footer/>
     </div>
   );
 }

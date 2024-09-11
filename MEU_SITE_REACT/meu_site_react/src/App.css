@@ -11,27 +11,27 @@ img{
   
 .pagina_inteira{
   margin:auto;
-  background-color: #72CEF2;
+  background-color: #A3D8F4;
   width:1500px;
-  height:auto;
+  height:auto; 
   }
   
   .hero{
       display: flex;
       justify-content: center;
-      background-color: #72CEF2;
+      background-color: #A3D8F4;
       margin-top: 75px;
   }
   
   .header{
       display: flex;
       justify-content: space-between;
-      background-color: #BDEDF2;
+      background-color: #C4F4E0;
   
   }
   
   .link{
-      color: #5C9DF2;
+      color: #F4ECC4;
   }
   
   .inline{
@@ -41,7 +41,7 @@ img{
   .ajeita_links{
       width: 800px;
       display: flex;
-      background-color: #BDEDF2;
+      background-color: #F4ECC4;
       justify-content: space-between;
       align-items: center;
       align-items: flex-end;

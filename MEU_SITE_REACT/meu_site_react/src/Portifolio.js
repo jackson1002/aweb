@@ -13,6 +13,7 @@ function Portifolio(){
                                 <thead>
                                     <tr>
                                         <th className="ano">Projeto</th>
+                                        <th className="escola">Descrição</th>
                                         <th className="escola">Tecnologias</th>
                                         <th className="escola">Link</th>
                                     </tr>
@@ -20,17 +21,20 @@ function Portifolio(){
                                 <tbody>
                                     <tr>
                                         <td className="dados">Aroma Nordeste</td>
+                                        <td className="dados">Site e-commerce de produtos de café</td>
                                         <td className="dados">MySQL,HTML e CSS</td>
                                         <td className="dados">gggggggggg</td>
                                     </tr>
                         
                                     <tr>
                                         <td className="dados">Festa do Chá</td>
+                                        <td className="dados">Site e-commerce pra venda de chá</td>
                                         <td className="dados">HTML e CSS</td>
                                         <td className="dados">gggggggggg</td>
                                     </tr>
                                     <tr>
                                         <td className="dados">Jogo da Memória</td>
+                                        <td className="dados">Jogo da memória com sabores de empadas</td>
                                         <td className="dados">JS,HTML e CSS</td>
                                         <td className="dados">gggggggggg</td>
                                     </tr>
