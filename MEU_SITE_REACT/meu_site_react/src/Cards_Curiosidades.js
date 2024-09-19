@@ -17,22 +17,22 @@ function Cards(){
                             <div className="container_colum1">
                                 <div className="card_aniversario">
                                     <img src={aniversario} className="aniversario" alt="Foto de Jackson Lucas em seu aniversário de 16 anos"/>
-                                    <h2>Meu aniversário é dia 26/01</h2>
+                                    <h2 className="letras_curiosidades">Meu aniversário é dia 26/01</h2>
                                 </div>
                                 <div className="card_eu_cecilia">
                                     <img src={cecilia} className="eu_cecilia" alt="foto de Jackson Lucas com sua irmã cecília na praia de Genipabu"/>
-                                    <h2>Tenho uma irmã chamada Cecília</h2>
+                                    <h2 className="letras_curiosidades">Tenho uma irmã chamada Cecília</h2>
                                 </div>
                             </div>
                             
                             <div className="container_colum2">
                                 <div className="card_sushi">
                                     <img src={sushi} className="sushi" alt="foto de Jackson Lucas com sua amiga Jéssica comendo sushi"/>
-                                    <h2>Sou apaixonado por sushi</h2>
+                                    <h2 className="letras_curiosidades">Sou apaixonado por sushi</h2>
                                 </div>
                                 <div className="card_musica">
                                     <img src={musica} className="musica" alt="foto de Jackson Lucas ouvindo música"/>
-                                    <h2 className="alinha_texto">Amo cantar(principalmente produzir backing vocal)</h2>
+                                    <h2 className="alinha_texto letras_curiosidades">Amo cantar(principalmente produzir backing vocal)</h2>
                                 </div>
                             </div>
                             <div className="container_colum3">

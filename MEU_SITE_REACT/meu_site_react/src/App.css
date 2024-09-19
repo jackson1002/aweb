@@ -2,7 +2,11 @@
   margin:0;
   padding: 0;
 }
-  
+
+.letras_curiosidades{
+    color:aliceblue;
+}
+
 img{
   width:500px;
   height:500px;
@@ -11,7 +15,7 @@ img{
   
 .pagina_inteira{
   margin:auto;
-  background-color: ;
+  background-color: #A3D8F4;
   width:1500px;
   height:auto; 
   }
@@ -26,7 +30,7 @@ img{
   .header{
       display: flex;
       justify-content: space-between;
-      background-color: #C4F4E0;
+      background-color: #b5e4d0;
   
   }
   
@@ -83,7 +87,7 @@ img{
       border-radius: 0;
   }
   .card_aniversario{
-      background-color: #BDEDF2;
+      background-color: /*#BDEDF2*/#92ddbd;
       width:380px;
       display: flex;
       flex-direction: column;
@@ -94,7 +98,7 @@ img{
   }
   
   .card_eu_cecilia{
-      background-color: #BDEDF2;
+      background-color: /*#BDEDF2*/#C4F4E0;
       width: 380px;
       display: flex;
       flex-direction: column;
@@ -119,7 +123,7 @@ img{
   
   .pagina_inteira{
       margin:auto;
-      background-color: #72CEF2;
+      background-color: /*#72CEF2*/ #A3D8F4;
       width:1500px;
       height: 5000px;
   }
@@ -127,19 +131,20 @@ img{
   .hero{
       display: flex;
       justify-content: center;
-      background-color: #72CEF2;
+      background-color: /*#72CEF2*/#A3D8F4;
       margin-top: 75px;
   }
   
   .header{
       display: flex;
       justify-content: space-between;
-      background-color: #BDEDF2;
+      background-color: #C4F4E0;/*#BDEDF2;*/
   
   }
   
   .link{
-      color: #5C9DF2;
+      color: #ffe253;
+      /*color: #5C9DF2;*/
   }
   
   .inline{
@@ -149,7 +154,7 @@ img{
   .ajeita_links{
       width: 800px;
       display: flex;
-      background-color: #BDEDF2;
+      background-color: /*#BDEDF2*/#C4F4E0;
       justify-content: space-between;
       align-items: center;
       align-items: flex-end;
@@ -164,7 +169,7 @@ img{
   .iniciais{
       font-size: 80px;
       margin-left: 20px;
-      color: #5C9DF2;
+      color: /*#5C9DF2*/#F4ECC4;
   }
   
   .curiosidades{
@@ -191,7 +196,7 @@ img{
       border-radius: 0;
   }
   .card_aniversario{
-      background-color: #BDEDF2;
+      background-color: /*#BDEDF2*/#C4F4E0;
       width:380px;
       display: flex;
       flex-direction: column;
@@ -202,7 +207,7 @@ img{
   }
   
   .card_eu_cecilia{
-      background-color: #BDEDF2;
+      background-color: /*#BDEDF2*/#C4F4E0;
       width: 380px;
       display: flex;
       flex-direction: column;
@@ -220,7 +225,7 @@ img{
   }
   
   .card_sushi{
-      background-color: #BDEDF2;
+      background-color: /*#BDEDF2*/#C4F4E0;
       width: 380px;
       display: flex;
       flex-direction: column;
@@ -238,7 +243,7 @@ img{
   
   .container_cards{
       display: flex;
-      background-color: #72CEF2;
+      background-color: /*#72CEF2*/#A3D8F4;
       justify-content: space-around;
       margin-top: 40px;
   }
@@ -246,17 +251,17 @@ img{
   .container_colum1{
       display: flex;
       flex-direction: column;
-      background-color: #72CEF2;
+      background-color: /*#72CEF2*/#A3D8F4;
   }
   
   .container_colum2{
       display: flex;
       flex-direction: column;
-      background-color: #72CEF2;
+      background-color: /*#72CEF2*/#A3D8F4;
   }
   
   .card_musica{
-      background-color: #BDEDF2;
+      background-color: /*#BDEDF2*/#C4F4E0;
       width:380px;
       display:flex;
       flex-direction:column;
@@ -285,7 +290,7 @@ img{
   }
   
   .card_doce{
-      background-color: #BDEDF2;
+      background-color: /*#BDEDF2*/#C4F4E0;
       width:380px;
       display: flex;
       flex-direction: column;
@@ -328,11 +333,11 @@ img{
       flex-direction: column;
       margin-left:20px;
       margin-top: 200px;
-      background-color: #72CEF2;
+      background-color: /*#72CEF2*/#A3D8F4;
   }
   
   .habilidades{
-      background-color: #72CEF2;
+      background-color: /*#72CEF2*/#A3D8F4;
       display: flex;
       flex-direction: column;
       margin-left: 20px;
@@ -438,7 +443,7 @@ img{
       width:900px;
   }
   .card_sushi{
-      background-color: #BDEDF2;
+      background-color: /*#BDEDF2*/#C4F4E0;
       width: 380px;
       display: flex;
       flex-direction: column;
@@ -456,7 +461,7 @@ img{
   
   .container_cards{
       display: flex;
-      background-color: #72CEF2;
+      background-color: /*#72CEF2*/#A3D8F4;
       justify-content: space-around;
       margin-top: 40px;
   }
@@ -464,17 +469,17 @@ img{
   .container_colum1{
       display: flex;
       flex-direction: column;
-      background-color: #72CEF2;
+      background-color: /*#72CEF2*/#A3D8F4;
   }
   
   .container_colum2{
       display: flex;
       flex-direction: column;
-      background-color: #72CEF2;
+      background-color: /*#72CEF2*/#A3D8F4;
   }
   
   .card_musica{
-      background-color: #BDEDF2;
+      background-color: /*#BDEDF2*/#C4F4E0;
       width:380px;
       display:flex;
       flex-direction:column;
@@ -503,7 +508,7 @@ img{
   }
   
   .card_doce{
-      background-color: #BDEDF2;
+      background-color: /*#BDEDF2*/#C4F4E0;
       width:380px;
       display: flex;
       flex-direction: column;
@@ -544,7 +549,7 @@ img{
   
   .causos{
       width: 510px;
-      background-color: #5C9DF2;
+      background-color: /*#5C9DF2*/#A3D8F4;
       margin-left: 20px;
       margin-top: 200px;
       color: aliceblue;
@@ -560,11 +565,11 @@ img{
       flex-direction: column;
       margin-left:20px;
       margin-top: 200px;
-      background-color: #72CEF2;
+      background-color: /*#72CEF2*/#A3D8F4;
   }
   
   .habilidades{
-      background-color: #72CEF2;
+      background-color: /*#72CEF2*/#A3D8F4;
       display: flex;
       flex-direction: column;
       margin-left: 20px;
@@ -573,7 +578,7 @@ img{
   }
   
   .contatos{
-      background-color:#72CEF2;
+      background-color:/*#72CEF2*/#A3D8F4;
       display: flex;
       flex-direction: column;
       margin-left: 20px;
@@ -581,7 +586,7 @@ img{
   }
   
   .sequencia_fotos{
-      background-color:#72CEF2;
+      background-color:/*#72CEF2*/#A3D8F4;
       display: flex;
       flex-direction: column;
       margin-top: 200px;
@@ -645,7 +650,7 @@ img{
   
   .container_lapis{
       display: flex;
-      background-color:#72CEF2;
+      background-color:/*#72CEF2*/#A3D8F4;
       width:50px;
       height:50px;
       margin-top: 50px;
@@ -757,7 +762,7 @@ img{
       width: 950px;
       height: 500px;
       display: flex;
-      background-color:#BDEDF2;
+      background-color:/*#BDEDF2*/#A3D8F4;
       justify-content: space-around;
       border-radius:10px ;
   }
@@ -814,7 +819,7 @@ img{
   }
 
   .titulo{
-      color:black;
+      color:/*black*/#FDE9B9;;
   }
 
   .camera{
@@ -830,7 +835,7 @@ img{
 
   .container_principal{
       display: flex;
-      background-color:#72CEF2;
+      background-color:/*#72CEF2*/#A3D8F4;
       width: 100%;
       justify-content: center;
   }
