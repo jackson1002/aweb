@@ -38,7 +38,7 @@ function Cards(){
                             <div className="container_colum3">
                                 <div className="card_doce">
                                     <img src={doce} className="doce" alt="foto de bolo sabor laranja,com cobertura de chocolate e enfeitado com rodela de laranja,feito por Jackson Lucas"/>
-                                    <h2>Sou doceiro</h2>
+                                    <h2 className="letras_curiosidades">Sou doceiro</h2>
                                 </div>
                             </div>
                         </div>

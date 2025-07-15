@@ -23,20 +23,20 @@ function Portifolio(){
                                         <td className="dados">Aroma Nordeste</td>
                                         <td className="dados">Site e-commerce de produtos de café</td>
                                         <td className="dados">MySQL,HTML e CSS</td>
-                                        <td className="dados">gggggggggg</td>
+                                        <td className="dados"><a href="https://github.com/eduardandrde/Aroma-Nordeste" className="link_repositorio">Acessar_Aroma_Nordeste</a></td>
                                     </tr>
                         
                                     <tr>
                                         <td className="dados">Festa do Chá</td>
                                         <td className="dados">Site e-commerce pra venda de chá</td>
                                         <td className="dados">HTML e CSS</td>
-                                        <td className="dados">gggggggggg</td>
+                                        <td className="dados"><a href="https://github.com/jackson1002/aweb/tree/main/SITE_CH%C3%81" className="link_repositorio">Acessar_Site_Chá</a></td>
                                     </tr>
                                     <tr>
                                         <td className="dados">Jogo da Memória</td>
                                         <td className="dados">Jogo da memória com sabores de empadas</td>
                                         <td className="dados">JS,HTML e CSS</td>
-                                        <td className="dados">gggggggggg</td>
+                                        <td className="dados"><a href="https://github.com/jackson1002/Jogo-da-mem-ria" className="link_repositorio">Acessar_Jogo_Memória</a></td>
                                     </tr>
 
                                 </tbody>

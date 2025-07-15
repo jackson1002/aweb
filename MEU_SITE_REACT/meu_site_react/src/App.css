@@ -1,10 +1,18 @@
+/*cor 60:#A3D8F4
+cor 30:alice blue e #5C9DF2
+cor 10:#BDEDF2 e #ffe45d*/
+
 *{
   margin:0;
   padding: 0;
 }
 
-.letras_curiosidades{
+.link_repositorio{
     color:aliceblue;
+}
+
+.letras_curiosidades{
+    color:aliceblue/*#ffe45d*/;
 }
 
 img{
@@ -30,12 +38,12 @@ img{
   .header{
       display: flex;
       justify-content: space-between;
-      background-color: #b5e4d0;
+      background-color: /*#b5e4d0*/#5C9DF2;
   
   }
   
   .link{
-      color: #F4ECC4;
+      color: /*#F4ECC4*/#ffe45d;
   }
   
   .inline{
@@ -125,7 +133,7 @@ img{
       margin:auto;
       background-color: /*#72CEF2*/ #A3D8F4;
       width:1500px;
-      height: 5000px;
+      height: 3000px;
   }
   
   .hero{
@@ -138,12 +146,12 @@ img{
   .header{
       display: flex;
       justify-content: space-between;
-      background-color: #C4F4E0;/*#BDEDF2;*/
+      background-color: /*#C4F4E0*/#5C9DF2;/*#BDEDF2;*/
   
   }
   
   .link{
-      color: #ffe253;
+      color: /*#ffe253*//*#F4ECC4*/#ffe45d;
       /*color: #5C9DF2;*/
   }
   
@@ -154,7 +162,7 @@ img{
   .ajeita_links{
       width: 800px;
       display: flex;
-      background-color: /*#BDEDF2*/#C4F4E0;
+      background-color: /*#BDEDF2*//*#C4F4E0*/#5C9DF2;
       justify-content: space-between;
       align-items: center;
       align-items: flex-end;
@@ -169,7 +177,7 @@ img{
   .iniciais{
       font-size: 80px;
       margin-left: 20px;
-      color: /*#5C9DF2*/#F4ECC4;
+      color: /*#5C9DF2*//*#F4ECC4*/#ffe45d;
   }
   
   .curiosidades{
@@ -196,7 +204,7 @@ img{
       border-radius: 0;
   }
   .card_aniversario{
-      background-color: /*#BDEDF2*/#C4F4E0;
+      background-color: /*#BDEDF2*//*#C4F4E0*/#5C9DF2;
       width:380px;
       display: flex;
       flex-direction: column;
@@ -207,7 +215,7 @@ img{
   }
   
   .card_eu_cecilia{
-      background-color: /*#BDEDF2*/#C4F4E0;
+      background-color: /*#BDEDF2*//*#C4F4E0*/#5C9DF2;
       width: 380px;
       display: flex;
       flex-direction: column;
@@ -315,7 +323,7 @@ img{
   
   .tabela_inteira{
       border: solid aliceblue 8px;
-      background-color:#88ABF2;
+      background-color:/*#88ABF2*/#BDEDF2;
       margin-top: 40px;
       padding: 20px;
   }
@@ -383,7 +391,7 @@ img{
   }
   
   .dados{
-      background-color: #BDEDF2;
+      background-color: /*#BDEDF2*/#5C9DF2;
       border:none;
       border-radius: 10px;
       text-align: center;
@@ -443,7 +451,7 @@ img{
       width:900px;
   }
   .card_sushi{
-      background-color: /*#BDEDF2*/#C4F4E0;
+      background-color: /*#BDEDF2*//*#C4F4E0*/#5C9DF2;
       width: 380px;
       display: flex;
       flex-direction: column;
@@ -479,7 +487,7 @@ img{
   }
   
   .card_musica{
-      background-color: /*#BDEDF2*/#C4F4E0;
+      background-color: /*#BDEDF2*//*#C4F4E0*/#5C9DF2;
       width:380px;
       display:flex;
       flex-direction:column;
@@ -508,7 +516,7 @@ img{
   }
   
   .card_doce{
-      background-color: /*#BDEDF2*/#C4F4E0;
+      background-color: /*#BDEDF2*//*#C4F4E0*/#5C9DF2;
       width:380px;
       display: flex;
       flex-direction: column;
@@ -534,7 +542,7 @@ img{
   
   .tabela_inteira{
       border: solid aliceblue 8px;
-      background-color: #5C9DF2;
+      background-color: /*#5C9DF2*/#BDEDF2;
       margin-top: 40px;
       padding: 80px;
       
@@ -581,8 +589,7 @@ img{
       background-color:/*#72CEF2*/#A3D8F4;
       display: flex;
       flex-direction: column;
-      margin-left: 20px;
-      margin-top: 275px;
+      margin-top: 309px;
   }
   
   .sequencia_fotos{
@@ -615,7 +622,8 @@ img{
   }
   
   .dados{
-      background-color: #BDEDF2;
+      background-color: /*#BDEDF2*/#5C9DF2;
+      color:aliceblue;
       border:none;
       border-radius: 10px;
       text-align: center;
